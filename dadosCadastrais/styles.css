@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 14px;
 }
 
 .header-section {
@@ -30,13 +30,13 @@ body {
 }
 
 .logo {
-    width: 30%;
-    margin-bottom: 24px;
+    width: 50%;
+
 }
 
 .subtitle {
-    color: #71B69C;
-    font-size: 25px;
+    color: #00bf63;
+    font-size: 22px;
     line-height: 1.5;
 }
 
@@ -73,7 +73,7 @@ body {
     border: 1px solid #E0E4F0;
     border-radius: 8px;
     font-size: 16px;
-    color: #333;
+    color: #00bf63;
     background-color: white;
 }
 
@@ -89,7 +89,7 @@ body {
     height: 48px;
     margin: 16px auto 0;
     display: block;
-    background: #3B5998;
+    background: #00bf63;
     color: white;
     border: none;
     border-radius: 8px;
@@ -120,18 +120,20 @@ body {
     left: 12px;
     width: 20px;
     height: 20px;
-    color: #71B69C;
+    color: #00bf63;
   }
   
   [data-lucide="folder-up"].input-icon {
     display: none; /* Oculta o ícone específico */
 }
 
-  
+  .form-row label {
+    color: #00bf63;
+  }
   .input-container label {
     display: inline-block;
     padding: 12px 20px;
-    background-color: #71B69C;
+    background-color: #00bf63;
     color: white;
     border-radius: 8px;
     cursor: pointer;

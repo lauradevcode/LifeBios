@@ -34,7 +34,7 @@ body {
   background-color: white;
   border: none;
   border-radius: 8px;
-  color: #3B5998;
+  color: #00bf63;
   cursor: pointer;
   font-size: 14px;
 }
@@ -81,6 +81,10 @@ body {
   margin-bottom: 40px;
 }
 
+.exames-grid label {
+  color: #00bf63;
+}
+
 /* Grupos de formulário */
 .form-group {
   text-align: left;
@@ -88,7 +92,7 @@ body {
 
 .form-group label {
   display: block;
-  color: #3B5998;
+  color: #00bf63;
   font-size: 14px;
   margin-bottom: 8px;
 }
@@ -103,11 +107,11 @@ body {
   border: 1px solid #E0E4F0;
   border-radius: 8px;
   font-size: 14px;
-  color: #71B69C;
+  color: #00bf63;
 }
 
 .input-wrapper input::placeholder {
-  color: #71B69C;
+  color: #00bf63;
 }
 
 .input-wrapper input:focus {
@@ -120,7 +124,7 @@ body {
   right: 12px;
   top: 50%;
   transform: translateY(-50%);
-  color: #71B69C;
+  color: #00bf63;
   width: 18px;
   height: 18px;
 }
@@ -143,7 +147,7 @@ body {
 }
 
 .avancar-button {
-  background: #3B5998;
+  background: #00bf63;
   color: white;
   border: none;
 }
